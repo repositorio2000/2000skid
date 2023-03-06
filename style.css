@@ -1,5 +1,7 @@
 html,body{height:100%}
 
+
+
 h1{margin-left: 35%; margin-bottom: 5%;}
 *{
     box-sizing: border-box;
@@ -41,4 +43,7 @@ body {
     margin: auto;
     width: 90%;
     padding: 10px;
+}
+
+{background-image:linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
