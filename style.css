@@ -15,6 +15,11 @@ body {
     justify-content: center;
 }
 
+.container {
+  display: grid;
+  place-content: center;
+}
+
 .column{flex-direction: column;}
 
 .row{
@@ -33,17 +38,17 @@ body {
 
 
 
-.column video
+.column 
 {margin-top: 5px;}
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .column{
         flex: 100%;
     }
 }
 .column {
     margin: auto;
-    width: 83%;
+    width: 79%;
     
 }
 
